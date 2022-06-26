@@ -261,8 +261,22 @@ HIGHLIGHT
     color: #fabf2a;
 }
 
+.book__price{
+  font-weight: 700;
+}
+
 .book__price--normal{
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+.books-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-2{
+  width: 25%;
+  padding: 24px;
 }
